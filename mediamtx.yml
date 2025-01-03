@@ -1,0 +1,15 @@
+
+paths:
+  webcam:
+    source: publisher
+    sourceProtocol: tcp
+    publishUser: ""
+    publishPass: ""
+    readUser: ""
+    readPass: ""
+
+rtspAddress: :8554
+protocols: [tcp]
+rtspTransport: tcp
+readTimeout: 30s
+writeTimeout: 30s

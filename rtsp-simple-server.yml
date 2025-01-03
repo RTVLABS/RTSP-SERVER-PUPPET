@@ -1,0 +1,11 @@
+paths:
+  webcam:
+    source: publisher
+    sourceProtocol: udp
+    sourceOnDemand: yes
+    sourceOnDemandStartTimeout: 10s
+    sourceOnDemandCloseAfter: 10s
+
+protocols: [tcp, udp]
+rtspAddress: :8554
+metrics: no 
